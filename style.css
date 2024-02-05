@@ -6,16 +6,50 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   margin-top: 0;
-  background-color: white;
-  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: space-evenly;
   width: 100%;
-  /* border: 1px solid red; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Increase shadow size for a more pronounced effect */
+  backdrop-filter: blur(10px); /* Increase blur for a stronger glass effect */
+  position: static;
+  overflow: hidden;
+  border-radius: 20px; /* Add border radius for a smoother appearance */
+}
+
+.main-nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: 20px; /* Inherit the border radius for consistent appearance */
+  z-index: -1;
+  transition: inherit;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333; /* Adjust text color to your preference */
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #007bff; /* Change text color on hover */
+}
+.active-nav{
+  color: #007bff!important;
 }
 
 .main-nav-child ul {
   display: flex;
+  /* border: 1px solid red; */
+  gap: 1.5rem;
 }
 .child-opt a {
   text-decoration: none;
@@ -26,18 +60,20 @@ body {
 
 .cont {
   margin: 0;
-  padding: 30px;
+  padding: 0;
   background: url("./background_banner2.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 
 div.logo-container {
   object-fit: cover;
   padding: 10px;
+  /* border: 2px solid red; */
 }
 img.logo {
   height: 51px;
@@ -50,6 +86,11 @@ img.robo {
   /* top: 50px; */
   animation: slideAnimation 8s linear infinite;
   height: 500px;
+  margin-top: 0.5rem;
+}
+div.d-lg-block{
+  /* border: 1px solid red; */
+  padding: 5px;
 }
 
 @keyframes slideAnimation {
@@ -121,7 +162,7 @@ div.inner-row {
     backdrop-filter: blur(10px);
   }
   to {
-    transform: scale(1.02) rotateX(5deg) rotateY(5deg);
+    transform: scale(1.02) rotateX(2deg) rotateY(2deg);
     backdrop-filter: blur(5px);
   }
 }
@@ -267,7 +308,7 @@ div.inner-row {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .nav-link {
@@ -279,39 +320,39 @@ div.inner-row {
 }
 
 .opt {
-  /* border: 1px solid black; */
-  border-radius: 30px;
-  padding: 10px;
-  font-size: 10px;
+  border-radius: 20px; /* Slightly reduced border radius for a smaller button */
+  padding: 11px 19px; /* Slightly reduced padding for a smaller button */
+  font-size: 14px; /* Adjusted font size for better readability */
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #006d77 !important;
-  background-color: rgb(223, 223, 223) !important;
+  color: #2e3b4e;
+  background-color: #e0e0e0;
   border: 2px solid transparent;
   transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease,
     box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 8px 8px 16px rgba(46, 59, 78, 0.5), -8px -8px 16px rgba(255, 255, 255, 0.8);
 }
 
 .opt:hover {
   color: #475467;
-  border: 2px solid #006d77 !important;
-  background-color: white !important;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 2px solid #2e3b4e;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px rgba(46, 59, 78, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.8);
   transform: scale(1.05);
 }
 
 .active {
   color: #475467;
-  border: 2px solid #006d77 !important;
-  background-color: white !important;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 2px solid #2e3b4e;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px rgba(46, 59, 78, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.8);
   transform: scale(1.05);
 }
-.active:hover {
+/* .active:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
-}
+} */
 
 div.card-row {
   display: grid;

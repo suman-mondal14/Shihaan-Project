@@ -1,271 +1,404 @@
-
 @media only screen and (max-width: 767px) {
-    /* Adjustments for smaller screens */
-  
-    body {
-      text-align: center;
-    }
-  
-    .main-nav-child ul {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .main-nav {
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .cont {
-      padding: 20px;
-      display: flex;
-      width: 100%;
-      display: grid;
-      place-items: center;
-      height: auto;
-      min-height: 400px; /* Adjusted minimum height for better responsiveness */
-    }
-  
-    img.robo {
-      display: none;
-    }
-  
-    .inner-row {
-      flex-direction: column;
-      gap: 20px;
-      text-align: center;
-    }
-  
-    .text-area {
-      margin-top: 0; /* Improved margin */
-    }
-  
-    .text-body {
-      font-size: 16px;
-      width: 100%;
-      margin-top: 10px; /* Adjusted margin */
-    }
-  
-    .btn1 {
-      top: 0;
-      padding: 10px 20px;
-    }
-  
-    div.logo-container {
-      height: 80px; /* Adjusted height */
-      width: 80px; /* Adjusted width */
-      object-fit: contain;
-    }
-  
-    img.logo {
-      height: 80px; /* Adjusted height */
-      width: 80px; /* Adjusted width */
-      object-fit: contain;
-    }
-  
-    .col-lg-5 {
-      order: -1;
-      margin-top: 10px; /* Adjusted margin */
-    }
-  
-    .banner-imgs {
-      text-align: center;
-    }
-  
-    .card-row {
-      top: 10px; /* Adjusted margin */
-    }
-  
-    .box-optimized {
-      padding: 15px;
-    }
-  
-    .inner-card {
-      margin: 10px 0;
-    }
-  
-    .nav-options ul {
-      gap: 10px;
-    }
-  
-    .paragraph {
-      padding: 20px;
-      width: 100%;
-    }
-  
-    .in-paragraph {
-      padding: 10px;
-      width: 100%;
-    }
-  
-    .textheading {
-      font-size: 24px;
-    }
-  
-    .color-gray {
-      font-size: 14px;
-    }
-  
-    .text-heading-2 {
-      font-size: 20px;
-    }
-  
-    .text-body-excerpt {
-      font-size: 14px;
-    }
-  
-    .btn2 {
-      padding: 10px 20px;
-    }
-  
-    .nav-options ul {
-      flex-direction: column;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      gap: 20px;
-    }
-  
-    div.card {
-      flex-direction: column;
-      width: 100%;
-    }
+  /* Adjustments for smaller screens */
+
+  body {
+    text-align: center;
   }
-  
-  @media only screen and (max-width: 480px) {
-    /* Additional adjustments for even smaller screens */
-  
-    body {
-      text-align: center;
-    }
-  
-    .main-nav-child ul {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .main-nav {
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .cont {
-      padding: 20px;
-      display: flex;
-      width: 100%;
-      display: grid;
-      place-items: center;
-      height: auto;
-      min-height: 400px; /* Adjusted minimum height for better responsiveness */
-    }
-  
-    img.robo {
-      display: none;
-    }
-  
-    .inner-row {
-      flex-direction: column;
-      gap: 20px;
-      text-align: center;
-    }
-  
-    .text-area {
-      margin-top: 0; /* Improved margin */
-    }
-  
-    .text-body {
-      font-size: 16px;
-      width: 100%;
-      margin-top: 10px; /* Adjusted margin */
-    }
-  
-    .btn1 {
-      top: 0;
-      padding: 10px 20px;
-    }
-  
-    div.logo-container {
-      height: 60px; /* Adjusted height */
-      width: 60px; /* Adjusted width */
-      object-fit: contain;
-    }
-  
-    img.logo {
-      height: 60px; /* Adjusted height */
-      width: 60px; /* Adjusted width */
-      object-fit: contain;
-    }
-  
-    .col-lg-5 {
-      order: -1;
-      margin-top: 10px; /* Adjusted margin */
-    }
-  
-    .banner-imgs {
-      text-align: center;
-    }
-  
-    .card-row {
-      top: 10px; /* Adjusted margin */
-    }
-  
-    .box-optimized {
-      padding: 15px;
-    }
-  
-    .inner-card {
-      margin: 10px 0;
-    }
-  
-    .nav-options ul {
-      gap: 10px;
-    }
-  
-    .paragraph {
-      padding: 20px;
-      width: 100%;
-      flex-direction: column;
-    }
-  
-    .in-paragraph {
-      padding: 10px;
-      width: 100%;
-      display: inline;
-    }
-  
-    .textheading {
-      font-size: 20px; /* Adjusted font size */
-    }
-  
-    .color-gray {
-      font-size: 12px; /* Adjusted font size */
-    }
-  
-    .text-heading-2 {
-      font-size: 18px; /* Adjusted font size */
-    }
-  
-    .text-body-excerpt {
-      font-size: 12px; /* Adjusted font size */
-    }
-  
-    .btn2 {
-      padding: 10px 15px; /* Adjusted padding */
-    }
-  
-    .nav-options ul {
-      flex-direction: column;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      gap: 20px;
-    }
-  
-    div.card {
-      flex-direction: column;
-      width: 100%;
-    }
+
+  .main-nav-child ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
-  
+
+  .main-nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cont {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: auto;
+    min-height: 400px; /* Adjusted minimum height for better responsiveness */
+  }
+
+  img.robo {
+    display: none;
+  }
+
+  .inner-row {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .text-area {
+    margin-top: 0; /* Improved margin */
+  }
+
+  .text-body {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px; /* Adjusted margin */
+  }
+
+  .btn1 {
+    top: 0;
+    padding: 10px 20px;
+  }
+
+  div.logo-container {
+    height: 80px; /* Adjusted height */
+    width: 80px; /* Adjusted width */
+    object-fit: contain;
+  }
+
+  img.logo {
+    height: 80px; /* Adjusted height */
+    width: 80px; /* Adjusted width */
+    object-fit: contain;
+  }
+
+  .col-lg-5 {
+    order: -1;
+    margin-top: 10px; /* Adjusted margin */
+  }
+
+  .banner-imgs {
+    text-align: center;
+  }
+
+  .card-row {
+    top: 10px; /* Adjusted margin */
+  }
+
+  .box-optimized {
+    padding: 15px;
+  }
+
+  .inner-card {
+    margin: 10px 0;
+  }
+
+  .nav-options ul {
+    gap: 10px;
+  }
+
+  .paragraph {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .in-paragraph {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .textheading {
+    font-size: 24px;
+  }
+
+  .color-gray {
+    font-size: 14px;
+  }
+
+  .text-heading-2 {
+    font-size: 20px;
+  }
+
+  .text-body-excerpt {
+    font-size: 14px;
+  }
+
+  .btn2 {
+    padding: 10px 20px;
+  }
+
+  .nav-options ul {
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+
+  div.card {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Additional adjustments for even smaller screens */
+
+  body {
+    text-align: center;
+  }
+
+  .main-nav-child ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cont {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: auto;
+    min-height: 400px; /* Adjusted minimum height for better responsiveness */
+  }
+
+  img.robo {
+    display: none;
+  }
+
+  .inner-row {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .text-area {
+    margin-top: 0; /* Improved margin */
+  }
+
+  .text-body {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px; /* Adjusted margin */
+  }
+
+  .btn1 {
+    top: 0;
+    padding: 10px 20px;
+  }
+
+  div.logo-container {
+    height: 60px; /* Adjusted height */
+    width: 60px; /* Adjusted width */
+    object-fit: contain;
+  }
+
+  img.logo {
+    height: 60px; /* Adjusted height */
+    width: 60px; /* Adjusted width */
+    object-fit: contain;
+  }
+
+  .col-lg-5 {
+    order: -1;
+    margin-top: 10px; /* Adjusted margin */
+  }
+
+  .banner-imgs {
+    text-align: center;
+  }
+
+  .card-row {
+    top: 10px; /* Adjusted margin */
+  }
+
+  .box-optimized {
+    padding: 15px;
+  }
+
+  .inner-card {
+    margin: 10px 0;
+  }
+
+  .nav-options ul {
+    gap: 10px;
+  }
+
+  .paragraph {
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .in-paragraph {
+    padding: 10px;
+    width: 100%;
+    display: inline;
+  }
+
+  .textheading {
+    font-size: 20px; /* Adjusted font size */
+  }
+
+  .color-gray {
+    font-size: 12px; /* Adjusted font size */
+  }
+
+  .text-heading-2 {
+    font-size: 18px; /* Adjusted font size */
+  }
+
+  .text-body-excerpt {
+    font-size: 12px; /* Adjusted font size */
+  }
+
+  .btn2 {
+    padding: 10px 15px; /* Adjusted padding */
+  }
+
+  .nav-options ul {
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+
+  div.card {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  /* Additional adjustments for smaller screens */
+
+  body {
+    text-align: center;
+  }
+
+  .main-nav-child ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cont {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: auto;
+    min-height: 400px; /* Adjusted minimum height for better responsiveness */
+  }
+
+  img.robo {
+    display: none;
+  }
+
+  .inner-row {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .text-area {
+    margin-top: 0; /* Improved margin */
+  }
+
+  .text-body {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px; /* Adjusted margin */
+  }
+
+  .btn1 {
+    top: 0;
+    padding: 10px 20px;
+  }
+
+  div.logo-container {
+    height: 50px; /* Adjusted height */
+    width: 50px; /* Adjusted width */
+    object-fit: contain;
+  }
+
+  img.logo {
+    height: 50px; /* Adjusted height */
+    width: 50px; /* Adjusted width */
+    object-fit: contain;
+  }
+
+  .col-lg-5 {
+    order: -1;
+    margin-top: 10px; /* Adjusted margin */
+  }
+
+  .banner-imgs {
+    text-align: center;
+  }
+
+  .card-row {
+    top: 10px; /* Adjusted margin */
+  }
+
+  .box-optimized {
+    padding: 15px;
+  }
+
+  .inner-card {
+    margin: 10px 0;
+  }
+
+  .nav-options ul {
+    gap: 10px;
+  }
+
+  .paragraph {
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .in-paragraph {
+    padding: 10px;
+    width: 100%;
+    display: inline;
+  }
+
+  .textheading {
+    font-size: 18px; /* Adjusted font size */
+  }
+
+  .color-gray {
+    font-size: 10px; /* Adjusted font size */
+  }
+
+  .text-heading-2 {
+    font-size: 16px; /* Adjusted font size */
+  }
+
+  .text-body-excerpt {
+    font-size: 10px; /* Adjusted font size */
+  }
+
+  .btn2 {
+    padding: 10px 15px; /* Adjusted padding */
+  }
+
+  .nav-options ul {
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+
+  div.card {
+    flex-direction: column;
+    width: 100%;
+  }
+}
